@@ -69,7 +69,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({ isOpen, onClose }) => {
           <div className="space-y-3">
              <div className="flex justify-between items-center border-b border-slate-700 pb-2 mb-4">
                  <h4 className="text-md font-semibold text-white flex items-center gap-2">
-                     <i className="fas fa-brain text-purple-400"></i> AI 모델 설정 (Gemini)
+                     <i className="fas fa-brain text-purple-400"></i> AI 모델 설정 (Gemini 3 Pro)
                  </h4>
              </div>
              
@@ -99,7 +99,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({ isOpen, onClose }) => {
                   )}
                 </div>
                 <div className="text-xs text-slate-500 flex justify-between items-center px-1">
-                  <span>Gemini API 키가 있어야 기획안 생성이 가능합니다.</span>
+                  <span>Gemini 3 Pro 모델을 사용합니다. API 키가 필요합니다.</span>
                   <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noreferrer" className="text-purple-400 hover:text-purple-300 underline decoration-purple-400/30">
                     키 발급 받기 <i className="fas fa-external-link-alt ml-1"></i>
                   </a>

@@ -109,6 +109,8 @@ export const startPlanningSession = async (inputs: UserInputs): Promise<string> 
     config: {
       systemInstruction: SYSTEM_INSTRUCTION,
       temperature: 0.7,
+      // Gemini 3 Pro Thinking Config for deeper reasoning
+      thinkingConfig: { thinkingBudget: 2048 }, 
     },
   });
 
